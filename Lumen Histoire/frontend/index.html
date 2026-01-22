@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="../logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumen Histoire</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+     <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+              mint: "#E6F7EE",
+              background: "#FAF6F5",
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-gray-100">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
